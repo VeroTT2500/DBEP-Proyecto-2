@@ -32,6 +32,15 @@ Para construir y ejecutar el contenedor Docker:
 * Agregamos la información de la visión, misión y valores.
 * Al final tenemos un pie de página con los derechos de autor.
 ### CSS
+* En el body eliminamos los márgenes, definimos la fuente Segoe UI, con otras fuentes como alternativas, el fondo es muy parecido al blanco, las letras son de un gris oscuro, el texto es centrado y la altura entre líneas es cómoda para leer.
+* Para h1, h2 y h3 pusimos distintos tonos de gris y distintos tamaños de fuente.
+* En el header el fondo es negro, la distribución es horizontal, hay espacio entre el título y el menú, el texto es centrado y se adapta en pantallas pequeñas.
+* En nav a, el color es azul claro con efecto de transición cuando el mouse pasa por encima, cambiando a blanco.
+* En hero, agregamos una imagen centrada que cubre el espacio sin repetirse, con un texto blanco encima.
+* En p, el texto es ligeramente mas grande de lo normal, con máximo ancho para que no se extienda demasiado, y centrado con margen horizontal y vertical automático.
+* En ul y li, el fondo es gris, el texto es blanco, está centrado, espaciado y con los bordes redondeados.
+* El footer es un fondo negro con texto pequeño, blanco, centrado y espaciado verticalmente.
+* Tiene animaciones al cargar secciones que hace que se desvanezca desde abajo y estando completamente visible después de un segundo.
 ## CONTACTO
 ### JS
 ### HTML
