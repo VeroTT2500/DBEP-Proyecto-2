@@ -36,15 +36,23 @@ Para construir y ejecutar el contenedor Docker:
 * Para h1, h2 y h3 pusimos distintos tonos de gris y distintos tamaños de fuente.
 * En el header el fondo es negro, la distribución es horizontal, hay espacio entre el título y el menú, el texto es centrado y se adapta en pantallas pequeñas.
 * En nav a, el color es azul claro con efecto de transición cuando el mouse pasa por encima, cambiando a blanco.
-* En hero, agregamos una imagen centrada que cubre el espacio sin repetirse, con un texto blanco encima.
 * En p, el texto es ligeramente mas grande de lo normal, con máximo ancho para que no se extienda demasiado, y centrado con margen horizontal y vertical automático.
 * En ul y li, el fondo es gris, el texto es blanco, está centrado, espaciado y con los bordes redondeados.
 * El footer es un fondo negro con texto pequeño, blanco, centrado y espaciado verticalmente.
 * Tiene animaciones al cargar secciones que hace que se desvanezca desde abajo y estando completamente visible después de un segundo.
 ## CONTACTO
-### JS
 ### HTML
+* Definimos el tipo de documento como HTML5 y el idioma como español.
+* Usa codificación UTF-8 para soportar caracteres especiales.
+* Hace que el diseño sea adaptable a dispositivos móviles.
+* A continuación tenemos el título Contacto - AutoMax.
+* Enlazamos con estilos.css para su diseño.
+* Muestra el nombre de la empresa, seguido de un menú con enlaces a: Inicio, Acerca de, Solo para ti.
+* Hay otro título Contacto, en el que se muestra después la información de la dirección, teléfono y correo electrónico de AutoMax.
+* Muestra un mapa con la ubicación específica: 28.702794, -106.1421091.
+* Al final tenemos un pie de página con los derechos de autor.
 ### CSS
+El css de aquí, presenta las mismas características que el css de Acerca de.
 ## DETALLE
 ### JS
 ### HTML
