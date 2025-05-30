@@ -55,8 +55,26 @@ Para construir y ejecutar el contenedor Docker:
 El css de aquí, presenta las mismas características que el css de Acerca de.
 ## DETALLE
 ### JS
+* Contiene el array de autos con los datos: marca, modelo, año, precio y descripción.
+* Selecciona un contenedor con el id "vehículos".
+* Por cada auto en el arreglo, se crea un div con la clase "flip-card".
+* En el contenido interno de la tarjeta, se realiza el "volteo", pudiendo ver las caras trasera y delantera. En la cara frontal vemos toda la información del auto, mientras que en la cara trasera podemos ver una imagen del auto.
+* Añade la tarjeta al contenedor en el HTML, para que se vea en la página.
 ### HTML
+* Definimos el tipo de documento como HTML5 y el idioma como español.
+* Usa codificación UTF-8 para soportar caracteres especiales.
+* Hace que el diseño sea adaptable a dispositivos móviles.
+* A continuación tenemos el título Detalle de Vehículos - AutoMax.
+* Enlazamos con estilos.css para su diseño.
+* Muestra el nombre de la empresa, seguido de un menú con enlaces a: Inicio, Acerca de, Contacto.
+* Está escrito "Descubre la selección especial que tenemos para ti" y "Estos son nuestros vehículos más escogidos"
+* Mostramos los autos del arreglo de autos.
+* Al final tenemos un pie de página con los derechos de autor.
 ### CSS
+* Tiene todo lo de los anteriores css del proyecto, pero cuenta con más características.
+* En la sección de vehículos, usa flex para alinear las tarjetas de vehículos en filas y gap para separarlas.
+* En las tarjetas de los autos, estas tienen sombra, borde suave, fondo claro y bastante padding.
+* En la sección de flip-card, las tarjetas giran en 3D al pasar el mouse, mostrando la información mencionada en ambas caras, quedando a la vista sólo una cara a la vez. La cara trasera está girada 180° para que al girar la tarjeta quede visible. La descripción del auto está en letra cursiva.
 ## LANDING PAGE
 ### JS
 ### HTML
