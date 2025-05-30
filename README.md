@@ -23,6 +23,14 @@ Para construir y ejecutar el contenedor Docker:
 ```
 ## ACERCA DE
 ### HTML
+* Definimos el tipo de documento como HTML5 y el idioma como español.
+* Usa codificación UTF-8 para soportar caracteres especiales.
+* Hace que el diseño sea adaptable a dispositivos móviles.
+* A continuación tenemos el título Acerca de - AutoMax.
+* Enlazamos con estilos.css para su diseño.
+* En el cuerpo tenemos el nombre de la empresa y una barra de navegación con enlaces a otras páginas del sitio.
+* Agregamos la información de la visión, misión y valores.
+* Al final tenemos un pie de página con los derechos de autor.
 ### CSS
 ## CONTACTO
 ### JS
