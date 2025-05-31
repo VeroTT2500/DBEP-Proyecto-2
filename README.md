@@ -77,7 +77,17 @@ El css de aquí, presenta las mismas características que el css de Acerca de.
 * En la sección de flip-card, las tarjetas giran en 3D al pasar el mouse, mostrando la información mencionada en ambas caras, quedando a la vista sólo una cara a la vez. La cara trasera está girada 180° para que al girar la tarjeta quede visible. La descripción del auto está en letra cursiva.
 ## LANDING PAGE
 ### JS
+* Tenemos una lista de 27 autos con sus respectivas propiedades (marca, modelo, año y precio).
+* Selecciona un contenedor con el id "vehículos".
+* Por cada auto en el arreglo, se crea un div con la clase "flip-card".
+* En el contenido interno de la tarjeta, se realiza el "volteo", pudiendo ver las caras trasera y delantera. En la cara frontal vemos toda la información del auto, mientras que en la cara trasera podemos ver una imagen del auto.
+* Añade la tarjeta al contenedor en el HTML, para que se vea en la página.
 ### HTML
+* Definimos el tipo de documento como HTML5 y el idioma como español.
+* Usa codificación UTF-8 para soportar caracteres especiales.
+* Hace que el diseño sea adaptable a dispositivos móviles.
+* A continuación tenemos el título AutoMax - Renta de Autos.
+* Enlazamos con estilos.css para su diseño.
 ### CSS
 ## Built With
 ```
