@@ -27,7 +27,7 @@ Para construir y ejecutar el contenedor Docker:
 * Usa codificación UTF-8 para soportar caracteres especiales.
 * Hace que el diseño sea adaptable a dispositivos móviles.
 * A continuación tenemos el título Acerca de - AutoMax.
-* Enlazamos con estilos.css para su diseño.
+* Enlazamos con Adestilos.css para su diseño.
 * En el cuerpo tenemos el nombre de la empresa y una barra de navegación con enlaces a otras páginas del sitio.
 * Agregamos la información de la visión, misión y valores.
 * Al final tenemos un pie de página con los derechos de autor.
@@ -46,7 +46,7 @@ Para construir y ejecutar el contenedor Docker:
 * Usa codificación UTF-8 para soportar caracteres especiales.
 * Hace que el diseño sea adaptable a dispositivos móviles.
 * A continuación tenemos el título Contacto - AutoMax.
-* Enlazamos con estilos.css para su diseño.
+* Enlazamos con Conestilos.css para su diseño.
 * Muestra el nombre de la empresa, seguido de un menú con enlaces a: Inicio, Acerca de, Solo para ti.
 * Hay otro título Contacto, en el que se muestra después la información de la dirección, teléfono y correo electrónico de AutoMax.
 * Muestra un mapa con la ubicación específica: 28.702794, -106.1421091.
@@ -65,7 +65,7 @@ El css de aquí, presenta las mismas características que el css de Acerca de.
 * Usa codificación UTF-8 para soportar caracteres especiales.
 * Hace que el diseño sea adaptable a dispositivos móviles.
 * A continuación tenemos el título Detalle de Vehículos - AutoMax.
-* Enlazamos con estilos.css para su diseño.
+* Enlazamos con Detestilos.css para su diseño.
 * Muestra el nombre de la empresa, seguido de un menú con enlaces a: Inicio, Acerca de, Contacto.
 * Está escrito "Descubre la selección especial que tenemos para ti" y "Estos son nuestros vehículos más escogidos"
 * Mostramos los autos del arreglo de autos.
@@ -87,7 +87,7 @@ El css de aquí, presenta las mismas características que el css de Acerca de.
 * Usa codificación UTF-8 para soportar caracteres especiales.
 * Hace que el diseño sea adaptable a dispositivos móviles.
 * A continuación tenemos el título AutoMax - Renta de Autos.
-* Enlazamos con estilos.css para su diseño.
+* Enlazamos con Lpestilos.css para su diseño.
 ### CSS
 ## Built With
 ```
