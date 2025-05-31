@@ -19,6 +19,8 @@ node server.js
 ```
 Para construir y ejecutar el contenedor Docker:
 ```
+docker pull rebecap/proyecto-dbep:latest
+docker run -d -p 8888:8888 rebecap/proyecto-dbep:latest
 
 ```
 ## ACERCA DE
