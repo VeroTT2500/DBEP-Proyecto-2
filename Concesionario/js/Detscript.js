@@ -36,7 +36,7 @@ autos.forEach(auto => {
         <p class="descripcion-auto">${auto.descripcion}</p>
       </div>
       <div class="flip-card-back">
-        <img src="imagenes/${auto.modelo.toLowerCase()}.png" alt="${auto.marca} ${auto.modelo}" />
+        <img src="img/${auto.modelo.toLowerCase()}.png" alt="${auto.marca} ${auto.modelo}" />
       </div>
     </div>
   `;
