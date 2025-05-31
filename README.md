@@ -15,7 +15,7 @@ git clone git@github.com:VeroTT2500/DBEP-Proyecto-2.git
 ```
 Para ejecutar la aplicación:
 ```
-
+node server.js
 ```
 Para construir y ejecutar el contenedor Docker:
 ```
@@ -88,7 +88,22 @@ El css de aquí, presenta las mismas características que el css de Acerca de.
 * Hace que el diseño sea adaptable a dispositivos móviles.
 * A continuación tenemos el título AutoMax - Renta de Autos.
 * Enlazamos con Lpestilos.css para su diseño.
+* Muestra el nombre de la empresa, seguido de un menú con enlaces a: Inicio, Acerca de, Contacto, Solo para ti.
+* Visualización de las tarjetas de los autos, con el título "Catálogo de Autos" seguido de la oración "Explora nuestra amplia gama de vehículos disponibles para renta".
+* Al final tenemos un pie de página con los derechos de autor.
 ### CSS
+* En el body eliminamos los márgenes, definimos la fuente Segoe UI, con otras fuentes como alternativas, el fondo es muy parecido al blanco, las letras son de un gris oscuro y el texto es centrado.
+* En el header el fondo es negro, la distribución es horizontal, hay espacio entre el título y el menú, el texto es centrado y se adapta en pantallas pequeñas.
+* En nav a, el color es azul claro con espaciado horizontal entre enlaces, y elimina el subrayado.
+* En la sección de vehículos, usa flex para alinear las tarjetas de vehículos en filas y gap para separarlas.
+* En las tarjetas de los autos, estas tienen sombra, borde suave, fondo claro, bastante padding y limita el ancho para que no se vean gigantes.
+* El footer es un fondo negro con texto pequeño, blanco, centrado y espaciado verticalmente.
+* En h1 es gris oscuro.
+* En descripción, el texto es un poco mas grande y grueso.
+* En título, el texto es aun más grande.
+* En la sección de flip-card, las tarjetas giran en 3D al pasar el mouse, mostrando la información mencionada en ambas caras, quedando a la vista sólo una cara a la vez. La cara trasera está girada 180° para que al girar la tarjeta quede visible.
+## Server
+En server.js, creamos un servidor web que puede leer archivos desde el disco. Responde a las peticiones (request) del navegador y envía respuestas (response). Si el usuario visita a la raíz, verá el landing page. Al leer archivos, valida posibles errores, y Si ocurre un error de tipo "Not Found" aparecerá en la pantalla dicho error. Se obtiene la extensión del archivo y Se configura el encabezado HTTP para indicar el tipo correcto de contenido, enviandoselo al usuario y obteniendo la respuesta. El servidor escucha en el puerto 8888, siendo evidente en el mensaje mostrado "Servidor corriendo en http://localhost:8888".
 ## Built With
 ```
 * GNU bash, version 5.2.21(1)
